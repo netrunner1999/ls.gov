@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(0, 5, 40);
+}
+
+.navbar-brand-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand-img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.mainheading {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 200%;
+        color: white;
+        font-family: 'Playfair Display', serif;
+    }
+.navbar {
+        background-color: rgb(0, 5, 40) !important;
+        border-bottom: 2px solid white;
+    }
+    .navbar-brand, .nav-link {
+        color: white !important;
+        font-family: 'Playfair Display', serif;
+      }
+     
+      
+.card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+ 
+    }    
+.card {
+    padding: 5px;
+    margin: 50px;
+    background-color: antiquewhite;
+    transition: transform 0.4s cubic-bezier(.47,-0.01,.27,.99);
+}
+h1 {
+    text-align: center;
+    color: white;
+    margin: 20px;
+    margin-top: 40px;
+    font-family: 'Playfair Display', serif;
+
+}
+.card-body {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.card-title {
+    font-size: 150%;
+    font-weight: 500;
+    margin-bottom: -10px;
+    font-family: 'Kalnia', serif;
+}
+.card-position {
+    font-size: 110%;
+    font-style: italic;
+    font-weight: 550;
+    margin-bottom: -8px;
+    font-family: 'Playfair Display', serif;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+a {
+    text-decoration: none; /* Remove underline */
+    color: #000; /* Set link color */
+}
